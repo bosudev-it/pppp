@@ -1,0 +1,119 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header-part{
+	background:#34495e;
+	width:100%;
+}
+.main-area{
+	width:90%;
+	margin:auto;
+	padding:8px 0;
+}
+.logo-area{
+	float:left;
+	width:30%;
+}
+.logo-area img{
+	width:50px;
+}
+.main-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.login-area label{
+	font-size:16px;
+	color:#fff;
+	font-family:tahoma;
+	margin-right: 10px;
+}
+.login-area input{
+	margin-right: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #786b16;
+	border-radius:5px;
+	padding:3px
+}
+.login-area{
+	padding:13px 0;
+}
+.login-area input[value="LogIn"]{
+	margin-left: -35px;
+	cursor:pointer;
+	padding:5px 15px;
+}
+.login-area input[value="LogIn"]:hover{
+	background:#2f3542;
+	transition:.5s;
+}
+.body-area{
+	background: url("images/n.png");
+	width:1280px;
+	height:819px;
+}
+.image{
+	width:40%;
+	float:left;
+}
+.image img{
+	width: 415px;
+    height: 659px;
+    margin-left: -30px;
+}
+.form-area{
+	float: right;
+    width: 25%;
+    background: #608b8361;
+    padding: 60px;
+    border-radius: 25px;
+	margin-top: 121px;
+    margin-right: 32px;
+	width:200px;
+	border: 1px solid #3eb39861;
+}
+.form-area label{
+	font-size:16px;
+	color:#fff;
+	font-family:tahoma;
+}
+.form-area input{
+	margin-bottom:10px;
+	padding: 2px;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #e9b91261;
+    border-radius: 5px;
+    color: #12e9b7;
+}
+.form-area input[value="Submit"]{
+	color: #fff;
+    margin-left: 65px;
+    padding: 6px;
+    width: 93px;
+    background: #e9bb12;
+	cursor:pointer;
+}
+.form-area input[value="Submit"]:hover{
+	background: #e99312;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
